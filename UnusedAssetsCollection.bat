@@ -1,1 +1,1 @@
-%~dp0python-3.5.2\python.exe %~dp0UnusedAssetsCollection.py %*
+%~dp0..\ThirdPartyNotUE\emsdk\Win64\python\2.7.5.3_64bit\python.exe %~dp0UnusedAssetsCollection.py %*

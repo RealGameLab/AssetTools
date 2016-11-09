@@ -27,7 +27,7 @@ def writeCollectionFile(fileName, assetList):
 		for asset in assetList:
 			collectionFile.write(asset + '\n')
 
-projectName = ''
+projectPath = ''
 cookLogPath = ''
 opts, args = getopt.getopt(sys.argv[1:], '', ['projectPath=', 'cookLogPath='])
 for o, a in opts:
