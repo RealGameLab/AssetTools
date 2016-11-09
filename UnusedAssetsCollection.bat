@@ -1,0 +1,1 @@
+%~dp0python-3.5.2\python.exe %~dp0UnusedAssetsCollection.py %*
