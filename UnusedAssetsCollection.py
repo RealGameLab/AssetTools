@@ -61,7 +61,7 @@ with open(cookLogPath, 'r') as cookLog:
 		if asset != '' and asset.startswith('/Game'):
 			usedAssets.add(asset)
 
-writeCollectionFile(projectCollectionPath + '\\used.collection', usedAssets)
+writeCollectionFile(projectCollectionPath + '\\Used.collection', usedAssets)
 
 # unUsed assets
 allAssets = set()
@@ -73,5 +73,5 @@ for root, dirs, files in os.walk(projectContentPath):
 
 unUsedAssets = allAssets.difference(usedAssets)
 
-writeCollectionFile(projectCollectionPath + '\\unUsed.collection', unUsedAssets)
+writeCollectionFile(projectCollectionPath + '\\UnUsed.collection', unUsedAssets)
 
